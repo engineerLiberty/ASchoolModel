@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42907fbe-f0bf-4516-b909-75cb0d6ba6dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ASchoolModel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/APPLICANTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/COURSES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/MAIN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/NonAcademicStaffs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/PERSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/PRINCIPAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/PRINCIPAL_INTERFACE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/STAFFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/STUDENTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/STUDENT_INTERFACE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/TEACHERS.java" afterDir="false" />
+    <list default="true" id="42907fbe-f0bf-4516-b909-75cb0d6ba6dc" name="Changes" comment="School Management system still progressing">
+      <change afterPath="$PROJECT_DIR$/src/com/libertyModel/StaffsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/APPLICANTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Applicant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/COURSES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/NonAcademicStaffs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/NonAcademicStaffs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/PERSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/PRINCIPAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/PRINCIPAL_INTERFACE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/PrincipalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/STAFFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Staffs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/STUDENTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/STUDENT_INTERFACE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/StudentInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/libertyModel/TEACHERS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/libertyModel/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +50,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="MAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.libertyModel.MAIN" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.libertyModel.Main" />
       <module name="ASchoolModel" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MAIN" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -83,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663797102893</updated>
     </task>
+    <task id="LOCAL-00001" summary="School Management system still progressing">
+      <created>1663814207432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663814207432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="School Management system still progressing" />
+    <option name="LAST_COMMIT_MESSAGE" value="School Management system still progressing" />
   </component>
 </project>

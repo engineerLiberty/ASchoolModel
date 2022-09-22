@@ -1,6 +1,6 @@
 package com.libertyModel;
 
-public interface STUDENT_INTERFACE {
+public interface StudentInterface {
     void applyForRemarking();
     void applyForChangeOfDepartment();
     void applyForChangeCourses();

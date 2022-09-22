@@ -1,9 +1,9 @@
 package com.libertyModel;
 
-public class PRINCIPAL extends STAFFS implements PRINCIPAL_INTERFACE {
+public class Principal extends Staffs implements PrincipalInterface {
 
-    public PRINCIPAL(String firstName, String lastName, String middleName, String contactAddress, int phoneContact, String emailAddress, int birthday) {
-        super(firstName, lastName, middleName, contactAddress, phoneContact, emailAddress, birthday);
+    public Principal(String firstName, String lastName, String middleName, String contactAddress, String phoneContact, String emailAddress, byte age) {
+        super(firstName, lastName, middleName, contactAddress, phoneContact, emailAddress, age);
     }
 
 

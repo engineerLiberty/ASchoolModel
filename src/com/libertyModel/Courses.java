@@ -1,0 +1,6 @@
+package com.libertyModel;
+
+public enum Courses {
+    PHYSICS, CHEMISTRY, GEOGRAPHY, BIOLOGY, MATHEMATICS, FURTHER_MATHEMATICS, GOVERNMENT, ECONOMICS
+
+}

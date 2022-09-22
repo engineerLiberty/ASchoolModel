@@ -1,6 +1,6 @@
 package com.libertyModel;
 
-public interface PRINCIPAL_INTERFACE {
+public interface PrincipalInterface {
      void expelStudent();
 
     void admitApplicant();
